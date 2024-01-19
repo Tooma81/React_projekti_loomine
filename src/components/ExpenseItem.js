@@ -1,4 +1,4 @@
-function ExpenseItem() {
+function ExpenseItem() { 
     return (
     <div>
         <div>Date</div>
