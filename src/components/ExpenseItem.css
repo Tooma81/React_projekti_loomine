@@ -29,3 +29,8 @@
     border: rgb(225, 203, 243) 2px solid;
     border-radius: 12px;
 } 
+
+.expense-item__date {
+    font-size: 1.25em;
+    font-weight: bold;
+} 
