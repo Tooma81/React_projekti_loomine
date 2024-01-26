@@ -1,4 +1,5 @@
 import './App.css';
+import './components/Expenses.css'
 import ExpenseItem from './components/ExpenseItem';
 
 function App() {
@@ -16,12 +17,14 @@ function App() {
   ] 
   return (
     <div className='App'>
-      <ExpenseItem 
-        expenseData = {expenses[0]}   
-      />
-      <ExpenseItem 
-        expenseData = {expenses[1]}   
-      />
+      <div className='expenses'>
+        <ExpenseItem 
+          expenseData = {expenses[0]}   
+        />
+        <ExpenseItem 
+          expenseData = {expenses[1]}   
+        />
+      </div>
     </div>
   );
 }
